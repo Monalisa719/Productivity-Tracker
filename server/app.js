@@ -55,5 +55,5 @@ if (process.env.NODE_ENV === "development") {
   const PORT = process.env.PORT || 5000;
   app.listen(PORT, () => console.log(`Server running locally on port ${PORT}`));
 }
-
+console.log("server running");
 export default app;
