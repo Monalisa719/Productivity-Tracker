@@ -2,9 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    const conn_str = process.env.MONGO_URI.endsWith("/")
-      ? process.env.MONGO_URI + "timeAnalysisAndProductivity"
-      : process.env.MONGO_URI + "/timeAnalysisAndProductivity";
+    const conn_str = process.env.MONGO_URI + 'timeAnalysis';
     await mongoose.connect(conn_str);
     console.log("MongoDB Connected Successfully");
   } catch (error) {
