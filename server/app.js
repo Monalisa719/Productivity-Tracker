@@ -23,7 +23,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://myproductivity-monalisabxr-6550s-projects.vercel.app",
+      "https://myproductivity-seven.vercel.app",
       "https://productivity-tracker-jymh.onrender.com",
     ],
     credentials: true,
