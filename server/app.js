@@ -23,8 +23,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://time-analysis-and-productivity.vercel.app",
-      "https://time-analysis-and-productivity-q8tt.vercel.app",
+      "https://myproductivity-monalisabxr-6550s-projects.vercel.app",
+      "https://productivity-tracker-jymh.onrender.com",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
